@@ -4,7 +4,9 @@ FileMaker based monitoring tool for FileMaker Servers and services
 Open the file using the following credentials:
 
 Username: admin
+
 Password: admin
+
 Encryption key: catch0myka5fatma_shorts_genossin8luck_henningPAKET
 
 
