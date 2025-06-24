@@ -22,6 +22,7 @@ api.Client Push Ping To Server DataAPI {JSON|I}
 Expected Parameters are described in the Script header
 
 If you want to group multiple tasks into one entry in PMM, use the Process parameter:
+
 "Process" : {
 	"Name" : JSONString,
 	"Value" : JSONString,
