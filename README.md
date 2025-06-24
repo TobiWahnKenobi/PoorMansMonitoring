@@ -21,11 +21,13 @@ api.Client Push Ping To Server DataAPI {JSON|I}
 
 Expected Parameters are described in the Script header
 
-If you want to group multiple tasks into one entry in PMM, use the Process Parameter
-	"Process" : {
-		"Name" : JSONString,
-		"Value" : JSONString,
-		"Max" : JSONString
-	}
+If you want to group multiple tasks into one entry in PMM, use the Process parameter:
+"Process" : {
+	"Name" : JSONString,
+	"Value" : JSONString,
+	"Max" : JSONString
+}
 
- At the moment only Process.Name is supported. Value and Max are reserved for future versions
+At the moment only Process.Name is supported. Value and Max are reserved for future versions
+
+For anything other than the basic FileMaker Server Monitoring the parameter "Is_Service" should be TRUE
