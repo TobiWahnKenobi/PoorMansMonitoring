@@ -25,10 +25,10 @@ If you want to group multiple tasks into one entry in PMM, use the Process param
 
 "Process" : {
 	"Name" : JSONString,
-	"Value" : JSONString,
-	"Max" : JSONString
+	"Value" : JSONString
 }
 
-At the moment only Process.Name is supported. Value and Max are reserved for future versions
+Process.Name needs to be unique for this Server.
+Process.Value can confere the value on the chart on your monitoring server (eg. the amount of emails sent, number of log entries written, ...)
 
 For anything other than the basic FileMaker Server Monitoring the parameter "Is_Service" should be TRUE
